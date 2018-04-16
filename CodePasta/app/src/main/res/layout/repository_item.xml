@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding = "10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    app:cardCornerRadius="5dp"
+    android:layout_height="wrap_content">
+    <GridLayout
+        android:columnCount="2"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/repo_name_text"
+            android:id="@+id/repo_name_label"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="name"
+            android:id="@+id/repo_name_text"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/TextViewDetails"
+            android:text="@string/description_text"
+            android:layout_width="120dp"
+            android:id="@+id/description_label"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/TextViewDetails"
+            tools:text="Some description long long "
+            android:id="@+id/description_text"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/TextViewDetails"
+            android:text="@string/created_text"
+            android:id="@+id/created_repo_label"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/TextViewDetails"
+            tools:text="11-11-11"
+            android:id="@+id/create_repo_text"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/TextViewDetails"
+            android:text="@string/repo_link_text"
+            android:id="@+id/repo_link_label"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/TextViewDetails"
+            tools:text="Some.repo.link"
+            android:id="@+id/repo_link_text"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/TextViewDetails"
+            android:text="@string/language_text"
+            android:id="@+id/language_label"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/TextViewDetails"
+            tools:text="java"
+            android:id="@+id/language_text"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/TextViewDetails"
+            android:text="@string/score_text"
+            android:id="@+id/score_label"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/TextViewDetails"
+            tools:text="123"
+            android:id="@+id/score_text"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/TextViewDetails"
+            android:text="@string/update_text"
+            android:id="@+id/update_label"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/TextViewDetails"
+            tools:text="23-11-11"
+            android:id="@+id/update_text"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/TextViewDetails"
+            android:text="@string/watchers_text"
+            android:id="@+id/watchers_label"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/TextViewDetails"
+            tools:text="12"
+            android:id="@+id/watchers_text"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+
+
+    </GridLayout>
+
+</android.support.v7.widget.CardView>

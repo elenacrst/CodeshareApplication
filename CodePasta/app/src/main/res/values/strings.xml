@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CodePasta</string>
+    <string name="login_text">Login</string>
+    <string name="hint_email">E-mail here</string>
+    <string name="hint_password">Password here</string>
+    <string name="action_done">Done</string>
+    <string name="hint_username">Your username here</string>
+    <string name="profile_link_text">Profile Link :</string>
+    <string name="name_text">Complete Name :</string>
+    <string name="company_text">Company :</string>
+    <string name="location_text">Location :</string>
+    <string name="hireable_text">Hireable :</string>
+    <string name="public_repos_text">Public Repositories :</string>
+    <string name="followers_text">Followers :</string>
+    <string name="following_text">Following :</string>
+    <string name="created_at_text">Registered since :</string>
+    <string name="updated_at_text">Updated At :</string>
+    <string name="action_view_repos">Go to recent pastas</string>
+    <string name="repo_name_text">Pasta Name :</string>
+    <string name="description_text">Description :</string>
+    <string name="created_text">Created at :</string>
+    <string name="repo_link_text">Pasta link :</string>
+    <string name="language_text">Language :</string>
+    <string name="score_text">Score :</string>
+    <string name="update_text">Last Update :</string>
+    <string name="watchers_text">Watchers</string>
+    <string name="action_user_repos">Go to my pastas</string>
+    <string name="action_post_repo">Post new pasta</string>
+    <string name="action_post_pasta">Post new pasta</string>
+    <string name="pasta_name_title">Pasta name</string>
+    <string name="description_title">Description</string>
+    <string name="private_title">Private pasta</string>
+    <string name="pasta_content_title">Pasta content</string>
+    <string name="public_title">Public pasta</string>
+    <string name="title_url_pasta">Pasta url :</string>
+    <string name="title_no_repositories">There isn\'t any pasta to display.</string>
+</resources>

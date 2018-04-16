@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.absolute.codepasta.ui.UserProfileActivity">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        tools:src="@android:color/white"
+        android:scaleType="fitXY"
+        android:id="@+id/avatar_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:id="@+id/username_text"
+        tools:text="SomeUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ScrollView
+
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+        <GridLayout
+            android:id="@+id/scrollProfile"
+            android:layout_margin="2dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:layout_width="wrap_content">
+            <TextView
+                style="@style/TextViewDetails"
+                android:text="@string/profile_link_text"
+                android:id="@+id/profile_link_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                style="@style/TextViewDetails"
+                tools:text="link.profile"
+                android:id="@+id/profile_link_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/TextViewDetails"
+                android:text="@string/name_text"
+                android:id="@+id/name_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/TextViewDetails"
+                tools:text="Some Name"
+                android:id="@+id/name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/TextViewDetails"
+                android:text="@string/company_text"
+                android:id="@+id/company_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/TextViewDetails"
+                tools:text="Some Company"
+                android:id="@+id/company_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/TextViewDetails"
+                android:text="@string/location_text"
+                android:id="@+id/location_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/TextViewDetails"
+                tools:text="Some Location, Loc"
+                android:id="@+id/location_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/TextViewDetails"
+
+                android:text="@string/hireable_text"
+                android:id="@+id/hireable_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/TextViewDetails"
+                tools:text="no"
+                android:id="@+id/hireable_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/TextViewDetails"
+                android:text="@string/public_repos_text"
+                android:id="@+id/public_repos_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/TextViewDetails"
+                tools:text="123"
+                android:id="@+id/public_repos_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/TextViewDetails"
+                android:text="@string/followers_text"
+                android:id="@+id/followers_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/TextViewDetails"
+                tools:text="23"
+                android:id="@+id/followers_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/TextViewDetails"
+                android:text="@string/following_text"
+                android:id="@+id/following_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/TextViewDetails"
+                tools:text="12"
+                android:id="@+id/following_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/TextViewDetails"
+                android:text="@string/created_at_text"
+                android:id="@+id/created_at_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/TextViewDetails"
+                tools:text="11-11-11 21.21am"
+                android:id="@+id/created_at_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/TextViewDetails"
+                android:text="@string/updated_at_text"
+                android:id="@+id/updated_at_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/TextViewDetails"
+                tools:text="11-11-11 11.11am"
+                android:id="@+id/updated_at_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </GridLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/recentPastaButton"
+        android:onClick="recentPastasClick"
+        android:layout_marginTop="20dp"
+        android:text= "@string/action_view_repos"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--todo implement this action, use retrofit to get user's repositories-->
+    <Button
+        android:onClick="userPastasClick"
+        android:layout_marginTop="2dp"
+        android:id="@+id/userPastasButton"
+        android:text= "@string/action_user_repos"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/postNewPastaButton"
+        android:onClick="postPastaClick"
+        android:layout_marginTop="2dp"
+        android:text= "@string/action_post_repo"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
