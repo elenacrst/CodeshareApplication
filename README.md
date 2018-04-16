@@ -1,9 +1,6 @@
 # CodeshareApplication
 
-<img src="https://i.imgur.com/OkEg1qY.png" height="400px" width="240px">
-<img src="https://i.imgur.com/D0Ayswd.png" height="400px" width="240px">
-<img src="https://i.imgur.com/cMlyquU.png" height="400px" width="240px">
-<img src="https://i.imgur.com/kSQe93X.png" height="400px" width="240px">
+<img src="https://i.imgur.com/OkEg1qY.png" height="400px" width="200px"><img src="https://i.imgur.com/D0Ayswd.png" height="400px" width="200px"><img src="https://i.imgur.com/cMlyquU.png" height="400px" width="200px"><img src="https://i.imgur.com/kSQe93X.png" height="400px" width="200px">
 
 
 <b>1.Login Screen - the username is used for accessing the corresponding profile information and repositories.
